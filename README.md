@@ -45,3 +45,13 @@ https://raw.githubusercontent.com/lizhian/loon-plugin/main/Bilibili_remove_ads_d
 ```
 
 关闭其他版本，仅启用第三版；保持空降助手开启，彻底退出哔哩哔哩后重开同一个视频。
+
+## 直播 / 推荐 / 热门版
+
+基于已在手机验证弹幕正常的第三版，仅修改首页标签为「直播 / 推荐 / 热门」，保留推荐为默认选中项。顶部和底部导航沿用原规则。首页标签 jq 文件由本仓库托管；其他脚本仍使用原作者链接。
+
+```text
+https://raw.githubusercontent.com/lizhian/loon-plugin/main/Bilibili_remove_ads_live_recommend_hot.lpx
+```
+
+安装后关闭其他版本，仅启用此版。首页效果待手机验证。
