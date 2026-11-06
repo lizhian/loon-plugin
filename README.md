@@ -21,3 +21,15 @@ https://raw.githubusercontent.com/lizhian/loon-plugin/main/Bilibili_remove_ads_D
 - 其余规则及外部脚本 URL 保留原样；外部脚本仍从原站加载，不在本仓库托管。
 
 适用于 iOS / iPadOS。原作者信息保留于插件文件中。
+
+## 诊断版 2
+
+第一版跳过 DmView 后，用户反馈弹幕仍不显示。第二版在第一版基础上再跳过 ViewProgress 响应处理（原脚本会删除 dm 字段），用于继续定位，尚未确认修复。
+
+安装 URL：
+
+```text
+https://raw.githubusercontent.com/lizhian/loon-plugin/main/Bilibili_remove_ads_diagnostic_v2.lpx
+```
+
+关闭原版和第一版，仅启用第二版进行对照。
